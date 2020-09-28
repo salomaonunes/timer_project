@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+section {
+  margin: 0 auto;
+  background-color: seagreen;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 100%;
+  padding: 100px 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 500px;
+}
+.container h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+button {
+  margin-top: 20px;
+  background-color: #069;
+  color: white;
+  font-size: 32px;
+  padding: 8px 20px;
+  cursor: pointer;
+  border: 0;
+}
+#display {
+  margin-top: 20px;
+}
+#display h3 {
+  color: red;
+  font-size: 20px;
+}
